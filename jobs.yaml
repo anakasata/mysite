@@ -1,0 +1,8 @@
+# https://wikitech.wikimedia.org/wiki/Help:Toolforge/Jobs_framework
+---
+# a cronjob
+# another normal job after the previous one finished running
+- name: breq51
+  image: python3.11
+  command: "pyvenv/bin/python ss05.py"
+  emails: none
